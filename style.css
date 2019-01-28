@@ -45,11 +45,15 @@ nav {
 }
 
 .bus-list-item {
-  padding: 8px 18px;
+  padding: 7px 18px;
 }
 
 .bus-list-item:first-child {
-  padding-top: 23px;
+  padding-top: 21px;
+}
+
+.bus-list-item:last-child {
+  padding-bottom: 18px;
 }
 
 .bus-number {
@@ -125,28 +129,19 @@ h3.direction {
 
 .tabs {
   height: 60px;
-  display: block;
-  padding-left: 20%;
   padding-top: 8px;
-  background-color: blue;
-  height: 60px;
+  box-shadow: 0px -9px 10px -2px #EEEEEE;
+  border-radius: 3%;
+  height: 70px;
+  text-align: center;
 }
 
-.maps {
-  float: left;
-  width: 30%;
-  padding-left: 2%;
-  display: block;
+.tab {
+  width: 31%;
+  display: inline-block;
+  text-align: center;
 }
 
-.saved {
-  float: left;
-  width: 30%;
-  padding-left: 2%;
-}
-
-.profile {
-  float: left;
-  width: 30%;
-  padding-left: 2%;
+.tab img {
+  margin-bottom: 2px;
 }
