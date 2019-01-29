@@ -2,7 +2,7 @@
 
 body {
   background-color: #FFFF;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   color: white;
 }
@@ -21,8 +21,8 @@ h1 {
 /*  background-color: pink; */
 }
 
-nav {
-  width: 375px;
+header {
+  width: 100%;
   background-color: #5B7EFF;
   text-align: center;
 }
@@ -44,15 +44,15 @@ nav {
   padding-bottom: 12px;
 }
 
-.bus-list-item {
+.bus-list li {
   padding: 7px 18px;
 }
 
-.bus-list-item:first-child {
+.bus-list li:first-child {
   padding-top: 21px;
 }
 
-.bus-list-item:last-child {
+.bus-list li:last-child {
   padding-bottom: 18px;
 }
 
@@ -136,7 +136,7 @@ h3.direction {
   text-align: center;
 }
 
-.tab {
+.tabs ul li {
   width: 31%;
   display: inline-block;
   text-align: center;
